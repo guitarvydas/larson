@@ -1,5 +1,8 @@
-# Larson scanner on command line in 0D
-https://shop.evilmadscientist.com/productsmenu/152
+# Larson scanner written as a diagram
+- source code written in a DPL (Diagrammatic Programming Language)
+![Larson Scanner](scanner3-Larson.drawio.png)
+- Larson scanner on command line in 0D
+- https://shop.evilmadscientist.com/productsmenu/152
 # usage
 ## stripped down
 uses main.py which uses global variables and does no error checking
@@ -9,6 +12,8 @@ uses main.py which uses global variables and does no error checking
 uses main-full.py which creates Objects on the heap and does some error checking
 # Tour
 - see `scanner3.drawio` (use the drawio editor https://app.diagrams.net) to see the source code
+  - note that the top level includes a feedback loop to keep the thing running
+  - the feedback loop uses a Delay component, to slow the thing down to human speed
 - see `main.py` to look at the lower-code Python implementation of Count, Reverser, Decode, and, Delay
 - see `main-full.py` to see the Python implementation
 - see `scanner3.drawio.json` to see the automatically-generated wiring lists
