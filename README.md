@@ -2,7 +2,9 @@
 - source code written in a DPL (Diagrammatic Programming Language)
 ![Larson Scanner](scanner3-Larson.drawio.png)
 - Larson scanner on command line in 0D
-- https://shop.evilmadscientist.com/productsmenu/152
+- Larson used the scanner in his show Knight Rider
+  - https://en.wikipedia.org/wiki/Glen_A._Larson
+  - https://shop.evilmadscientist.com/productsmenu/152
 # usage
 ## stripped down
 uses main.py which uses global variables and does no error checking
